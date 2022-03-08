@@ -1,0 +1,54 @@
+@import url(mainContent.css);
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+#content{
+    width: 97%;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+.slide{
+    margin-top: 70px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+h1{
+    margin-bottom: 60px;
+    color: rgb(0, 0, 0);
+}
+body #content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+header{
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 90px;
+    background: linear-gradient(0deg, rgba(5, 5, 5, 0.431), rgba(0, 0, 0, 0.3)), url(/img/agraval.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+header img{
+    display: flex;
+    width: 250px;
+    margin: 20px auto;
+}
+footer {
+    height: 220px;
+}
+
+footer #content img{
+    display: flex;
+    margin: 90px auto 20px auto;
+    width: 140px;
+}
+
